@@ -1,0 +1,25 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Practice writing tests using Jest, following the AAA patter, and the TDD approach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astroboyReloaded/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "astroboyReloaded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astroboyReloaded/testing-practice/issues"
+  },
+  "homepage": "https://github.com/astroboyReloaded/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
