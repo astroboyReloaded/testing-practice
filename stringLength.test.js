@@ -1,5 +1,9 @@
 const stringLength = require('./stringLength');
 
-test('returns: 16', () => {
-  expect(stringLength('The sky is blue')).toBe(15);
+test('returns: false', () => {
+  expect(stringLength('The sky is blue')).toBeFalsy();
+});
+
+test('returns: true', () => {
+  expect(stringLength('I code')).toBeTruthy();
 });
